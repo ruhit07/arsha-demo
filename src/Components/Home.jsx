@@ -1,5 +1,9 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
+import About from "./About";
+import Contact from "./Contact";
+import Services from "./Services";
+import Team from "./Team";
 import logo from '../Img/hero-img.png';
 import logo1 from '../Img/client-1.png';
 import logo2 from '../Img/client-2.png';
@@ -47,8 +51,6 @@ const Home=()=>{
               Get Started
             </NavLink>
 
-    
-
           </div>
 
           <div className="col-md-6">
@@ -84,6 +86,10 @@ const Home=()=>{
         </div>
       </div>  
     
+      <About />
+      <Services />
+      <Team />
+      <Contact />
   </div>  
   );
 };
