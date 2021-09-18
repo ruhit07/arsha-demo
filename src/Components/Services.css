@@ -1,0 +1,14 @@
+#service-section{
+  background: linear-gradient(#37517E,#375c7ec9),url(../Img/photo-1462396240927-52058a6a84ec.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+};
+#card-fst .read-more:hover{
+  font-size: 10px;
+}
+
+#card-fst:hover{
+  transform:scale(1.1);
+  transition: 0.2s;
+}
